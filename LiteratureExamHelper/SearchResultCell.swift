@@ -2,15 +2,14 @@
 //  SearchResultCell.swift
 //  LiteratureExamHelper
 //
-//  Created by Bozhidat Goranov on 29.10.20.
+//  Created by Bozhidat Goranov on 30.10.20.
 //
 
 import UIKit
 
 class SearchResultCell: UITableViewCell {
 
-    @IBOutlet weak var authorImageView: UIImageView!
+    @IBOutlet weak var button: UIButton!
     @IBOutlet weak var authorNameLabel: UILabel!
-    @IBOutlet weak var authorPeriodLabel: UILabel!
-    @IBOutlet weak var authorMainThemesLabel: UILabel!
-}
+    @IBOutlet weak var themesLabel: UILabel!
+    }

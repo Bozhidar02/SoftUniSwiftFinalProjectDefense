@@ -7,10 +7,9 @@
 
 import Foundation
 
-class Author{
+class Author: NSObject{
     var name: String = ""
-    //var yearOfBirth: Int = 0
-    //var yearOfDeath: Int = 0
+    //var timePeriod = ""
     var mainThemes: String = ""
     //var works: [Works] = []
     init(name: String, mainThemes: String) {
