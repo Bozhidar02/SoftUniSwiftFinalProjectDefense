@@ -41,8 +41,9 @@
                 </subviews>
             </tableViewCellContentView>
             <connections>
-                <outlet property="authorNameLabel" destination="fkG-bS-Shb" id="ZNj-eJ-2BN"/>
+                <outlet property="authorNameLabel" destination="fkG-bS-Shb" id="yqt-Ya-hZ9"/>
                 <outlet property="button" destination="1dA-Zt-T26" id="8g4-cr-5Jb"/>
+                <outlet property="detailsLabel" destination="PAH-0e-WG9" id="Eje-lO-1Yc"/>
                 <outlet property="themesLabel" destination="PAH-0e-WG9" id="g8x-fg-6XO"/>
             </connections>
             <point key="canvasLocation" x="324.63768115942031" y="-7.7008928571428568"/>

@@ -9,7 +9,7 @@ import UIKit
 
 class SearchResultCell: UITableViewCell {
 
-    @IBOutlet weak var button: UIButton!
     @IBOutlet weak var authorNameLabel: UILabel!
-    @IBOutlet weak var themesLabel: UILabel!
-    }
+    
+    @IBOutlet weak var detailsLabel: UILabel!
+}
